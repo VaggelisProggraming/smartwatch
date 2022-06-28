@@ -1,0 +1,64 @@
+body {
+    background-color: #8fbc8f;
+    color: orange;
+    font-weight: 900;
+    font-family: Sans-serif;
+}
+.parent {
+    position: fixed;
+    left: 35%;
+    right: 65%;
+}
+.content-text {
+    color: white;
+    width: 300px;
+    position: fixed;
+    left: 44%;
+    right: 56%;
+    top: 15%;
+    bottom: 85%;
+}
+
+.content-text .hr {
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    border-radius: 50%;
+    border: 10px solid red;
+    height: 50px;
+    width: 50px;
+}
+.content-text .hr .text {
+    position: fixed;
+    top: 54%;
+    bottom: 46%;
+    left: 45.5%;
+}
+.content {
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+    background: black;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    border: 10px solid gray;
+}
+.strap {
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 166, 0);
+    color: rgb(255, 166, 0);
+    position: fixed;
+    top: 75.5%;
+    left: 47.5%;
+    width: 100px;
+    height: 200px;
+}
+
+.strap2 {
+    background-color: rgb(255, 166, 0);
+    color: rgb(255, 166, 0);
+    position: absolute;
+    bottom: 98%;
+    left: 47.5%;
+    width: 100px;
+    height: 200px;
+}
