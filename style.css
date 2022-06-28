@@ -28,11 +28,64 @@ body {
     height: 50px;
     width: 50px;
 }
-.content-text .hr .text {
+.content-text .hr #text {
     position: fixed;
     top: 54%;
     bottom: 46%;
     left: 45.5%;
+}
+.content-text .kcal {
+    position: fixed;
+    top: 60%;
+    bottom: 40%;
+    left: 50%;
+    border-radius: 50%;
+    border: 10px solid orange;
+    height: 50px;
+    width: 50px;
+}
+.content-text .kcal #text {
+    position: fixed;
+    bottom: 33%;
+    left: 51.5%;
+}
+.content-text .steps {
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    left: 55.5%;
+    border-radius: 50%;
+    border-right: 10px solid rgb(0, 181, 241);
+    border-top: 10px solid rgb(0, 181, 241);
+    border-left: 10px solid darkgray;
+    border-bottom: 10px solid darkgray;
+    height: 50px;
+    width: 50px;
+}
+.content-text .steps #text {
+    position: fixed;
+    /* top: 55%; */
+    bottom: 42%;
+    left: 56.5%;
+}
+
+
+.content .down {
+    text-decoration: none;
+    height: 50px;
+    position: fixed;
+    right: 47%;
+    left: 53%;
+    top: 50%;
+    bottom: 50%;
+    font-size: 32px;
+    color: #FFFF;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    display: inline-block;
+    transform: rotate(-180deg);
 }
 .content {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
