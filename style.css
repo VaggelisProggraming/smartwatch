@@ -13,10 +13,28 @@ body {
     color: white;
     width: 300px;
     position: fixed;
+    left: 44%;
+    right: 56%;
+    top: 15%;
+    bottom: 85%;
+}
+.content-text #time {
+    color: white;
+    width: 300px;
+    position: fixed;
     left: 48%;
     right: 52%;
     top: 15%;
     bottom: 85%;
+}
+.content-text #date {
+    color: white;
+    width: 300px;
+    position: fixed;
+    left: 60%;
+    right: 40%;
+    top: 40%;
+    bottom: 60%;
 }
 
 .content-text .hr {
